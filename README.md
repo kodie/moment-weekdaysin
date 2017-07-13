@@ -18,7 +18,7 @@ moment().weekdaysInMonth('Monday');
 <script src="moment.js"></script>
 <script src="moment-weekdaysin.js"></script>
 <script>
-	moment().weekdaysInYear('Friday');
+  moment().weekdaysInYear('Friday');
 </script>
 ```
 

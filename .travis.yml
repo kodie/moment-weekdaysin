@@ -1,0 +1,10 @@
+language: node_js
+sudo: false
+
+install:
+  - npm install
+  - npm install -g jshint
+
+script:
+  - jshint moment-weekdaysin.js
+  - npm test

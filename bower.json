@@ -1,0 +1,34 @@
+{
+  "name": "moment-weekdaysin",
+  "version": "1.0.0",
+  "description": "A Moment.js plugin for getting the weekdays of a month, year, or inbetween two dates.",
+  "keywords": [
+    "moment",
+    "momentjs",
+    "week",
+    "day",
+    "weekday",
+    "weekend",
+    "between",
+    "month",
+    "year"
+  ],
+  "author": {
+    "name": "Kodie Grantham",
+    "email": "kodie.grantham@gmail.com",
+    "url": "http://kodieg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodie/moment-weekdaysin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kodie/moment-weekdaysin/issues"
+  },
+  "homepage": "https://github.com/kodie/moment-weekdaysin",
+  "license": "MIT",
+  "main": "moment-weekdaysin.js",
+  "dependencies": {
+    "moment": ">=2.0.0"
+  }
+}

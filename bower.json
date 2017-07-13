@@ -1,6 +1,6 @@
 {
   "name": "moment-weekdaysin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Moment.js plugin for getting the weekdays of a month, year, or inbetween two dates.",
   "keywords": [
     "moment",

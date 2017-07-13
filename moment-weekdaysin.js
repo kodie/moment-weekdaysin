@@ -1,5 +1,5 @@
 //! moment-weekdaysin.js
-//! version : 1.0.0
+//! version : 1.0.1
 //! author : Kodie Grantham
 //! license : MIT
 //! github.com/kodie/moment-weekdaysin
@@ -46,8 +46,10 @@
         if (!days[a].length) { continue; }
 
         for (var n = 0; n < index.length; n++) {
-          var ni = (index[n] - 1);
-          if (index[n] < 0) { ni = (days[a].length + index[n]); }
+          var ind = parseInt(index[n]);
+          if (isNaN(ind)) { continue; }
+          var ni = (ind - 1);
+          if (ind < 0) { ni = (days[a].length + ind); }
           nDays.push(days[a][ni]);
         }
       }

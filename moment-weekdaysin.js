@@ -1,3 +1,9 @@
+//! moment-weekdaysin.js
+//! version : 1.0.0
+//! author : Kodie Grantham
+//! license : MIT
+//! github.com/kodie/moment-weekdaysin
+
 (function() {
   var moment = (typeof require !== 'undefined' && require !== null) && !require.amd ? require('moment') : this.moment;
 

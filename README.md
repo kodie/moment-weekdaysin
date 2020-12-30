@@ -2,6 +2,10 @@
 
 A [Moment.js](https://github.com/moment/moment) plugin for getting the weekdays of a month, year, or inbetween two dates.
 
+## NO LONGER MAINTAINED (DEPRECATED)
+
+Since [Moment.js is being deprecated](https://momentjs.com/docs/#/-project-status/), it only makes sense to deprecate this project as well. Feel free to fork and use this code in any way you wish however I will no longer be maintaining it.
+
 ## Requirements
 * [moment.js](https://github.com/moment/moment) v2.1.0 or higher
 
